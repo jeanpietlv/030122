@@ -1,3 +1,93 @@
 body {
     font-family: 'Roboto Mono', monospace;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: url(../img/head-plants.jpeg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    padding-top:20px;
+    padding-left: 6%;
+}
+
+header article {
+    color: white;
+    width: 20%;
+    margin:0 auto;
+    text-align: center;
+    margin-top:15%;
+}
+
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    margin-bottom:20px;
+    font-size:25px;
+}
+
+article p   {
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+header article a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    border:1px solid white;
+    padding:10px 25px;
+    font-size: 15px;
+}
+
+nav ul {
+    text-align: right;
+    margin-right:6%;
+    margin-top:20%;
+
+}
+
+nav ul li {
+    margin-top:10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+main {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    margin-top:30px;
+}
+
+main p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom:30px;
+}
+
+main h3 {
+    font-family: 'Fredericka the Great', cursive;
+    margin-bottom: 30px;
+}
+
+main article {
+    border: 3px double black;
+    padding:10px 25px;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    margin:0 auto;
+}
